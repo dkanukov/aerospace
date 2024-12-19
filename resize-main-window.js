@@ -1,4 +1,4 @@
-const { exec, execSync } = require('child_process');
+const { execSync } = require('child_process');
 const { readFile, writeFile } = require('fs');
 
 function update() {
