@@ -1,5 +1,5 @@
-const { execSync } = require('child_process');
-const { readFile, writeFile } = require('fs');
+import { execSync } from 'child_process';
+import { readFile, writeFile } from 'fs';
 
 function update() {
 	const CASE_ZERO = 'outer.top =        [{monitor.main = 12}, 0]';
